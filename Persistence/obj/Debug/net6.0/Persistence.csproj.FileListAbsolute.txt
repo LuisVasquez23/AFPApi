@@ -1,0 +1,17 @@
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Application.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Application.pdb
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\luis\Desktop\ASP\AFPApi\Persistence\obj\Debug\net6.0\ref\Persistence.dll
