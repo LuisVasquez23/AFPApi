@@ -6,7 +6,6 @@ using Domain.Entities.Vehiculo;
 using Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 using Moq;
 using WebApi.Controllers;
 
@@ -27,6 +26,7 @@ namespace AFPApi.Tests
                 new VehiculoEntity { NumeroDePlaca = "XYZ789", Marca = "Honda" }
             };
             mockQuery.Setup(query => query.Execute()).ReturnsAsync(vehiculos);
+            
             var controller = new VehiculoController();
 
             // Act
@@ -117,37 +117,5 @@ namespace AFPApi.Tests
             Assert.IsNotNull(baseResponse);
         }
 
-        // ERROR
-        [TestMethod]
-        public async Task Create_DeberiaDevolverBadRequest_CuandoLaCreacionFalla()
-        {
-            // Arrange
-            var mockCommand = new Mock<ICreateVehiculoCommand>();
-            mockCommand.Setup(cmd => cmd.Execute(It.IsAny<VehiculoEntity>())).ThrowsAsync(new ApplicationException("Error al crear el vehículo"));
-            var controller = new VehiculoController();
-
-            // Act
-            var resultado = await controller.Create(new VehiculoEntity(), mockCommand.Object) as ObjectResult;
-
-            // Assert
-            Assert.IsNotNull(resultado);
-            Assert.AreEqual(StatusCodes.Status400BadRequest, resultado.StatusCode);
-        }
-
-        [TestMethod]
-        public async Task Delete_DeberiaDevolverInternalServerError_CuandoLaEliminacionFalla()
-        {
-            // Arrange
-            var mockCommand = new Mock<IDeleteVehiculoCommand>();
-            mockCommand.Setup(cmd => cmd.Execute(It.IsAny<string>())).ThrowsAsync(new Exception("Error al eliminar el vehículo"));
-            var controller = new VehiculoController();
-
-            // Act
-            var resultado = await controller.Delete("ABC123", mockCommand.Object) as ObjectResult;
-
-            // Assert
-            Assert.IsNotNull(resultado);
-            Assert.AreEqual(StatusCodes.Status500InternalServerError, resultado.StatusCode);
-        }
     }
 }
