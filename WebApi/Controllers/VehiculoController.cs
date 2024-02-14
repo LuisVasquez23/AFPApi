@@ -21,7 +21,7 @@ namespace WebApi.Controllers
 
         }
 
-        [HttpGet("/api/v1/Vehiculo")]
+        [HttpGet("/api/v1/Vehiculos")]
         public async Task<IActionResult> Get([FromServices] IGetVehiculosQuery query)
         {
             var personas = await query.Execute();

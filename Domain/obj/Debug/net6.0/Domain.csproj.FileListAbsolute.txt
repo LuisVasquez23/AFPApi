@@ -9,3 +9,4 @@ C:\Users\luis\Desktop\ASP\AFPApi\Domain\obj\Debug\net6.0\Domain.dll
 C:\Users\luis\Desktop\ASP\AFPApi\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\luis\Desktop\ASP\AFPApi\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\luis\Desktop\ASP\AFPApi\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\luis\Desktop\ASP\AFPApi\Domain\obj\Debug\net6.0\Domain.sourcelink.json

@@ -73,3 +73,4 @@ C:\Users\luis\Desktop\ASP\AFPApi\WebApi\obj\Debug\net6.0\refint\WebApi.dll
 C:\Users\luis\Desktop\ASP\AFPApi\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\luis\Desktop\ASP\AFPApi\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\luis\Desktop\ASP\AFPApi\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\luis\Desktop\ASP\AFPApi\WebApi\obj\Debug\net6.0\WebApi.sourcelink.json
