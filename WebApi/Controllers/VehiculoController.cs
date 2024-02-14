@@ -5,7 +5,6 @@ using Application.Services.Vehiculo.Commands.DeleteVehiculoCommand;
 using Application.Services.Vehiculo.Commands.UpdateVehiculoCommand;
 using Application.Services.Vehiculo.Queries.GetVehiculosQuery;
 using Domain.Entities.Vehiculo;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
