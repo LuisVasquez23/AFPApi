@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AFPApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+265a57628a69d8f6291e68c0266ad7e0beff9f08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2d8c48e4dc7c3d98e9c60a971d2fc4411bd5b2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AFPApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AFPApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
